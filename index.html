@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- inter font -->
+    <link rel="stylesheet" href="./assets/fonts/inter/stylesheet.css">
+
+    <!-- javaScript -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--==========scroll-to-top==========-->
+    <div id="scroll"></div>
+    <a href="#scroll" title="scroll to top">
+        <div class="top-btn">
+            <i class="ri-arrow-up-line"></i>
+        </div>
+    </a>
+    <!--========== BG-THEME ==========-->
+    <div class="theme">
+        <div class="bg-theme"></div>
+        <div class="bg-theme-pink"></div>
+    </div>
+    <!-- ========== HEADER START ========== -->
+    <!-- ========== HEADER START ========== -->
+    <header>
+        <nav class="nav-container container flex justify-between align-center dark-theme">
+            <!-- ========== LOGO ========== -->
+            <div class="logo">
+                <img src="./assets/images/header/logo.png" alt="DOOB-LOGO" width="130px">
+            </div>
+            <!-- ========== RIGHT SECTION ========== -->
+            <div class="nav-right flex gap-40 align-center">
+                <div class="flex align-center">
+                    <!-- ========== NAV-LINKS ========== -->
+                    <ul class="nav-ul-items flex gap-35">
+                        <li><a class="dark-theme" href="#">Home</a></li>
+                        <li><a class="dark-theme" href="#">About</a></li>
+                        <li><a class="dark-theme" href="#">Elements</a></li>
+                        <li><a class="dark-theme" href="#">Blog</a></li>
+                        <li><a class="dark-theme" href="#">Portfolio</a></li>
+                        <li><a class="dark-theme" href="#">Contact</a></li>
+                    </ul>
+                    <!-- ========== NAV BUTTONS ========== -->
+                </div>
+                <div class="nav-btns flex gap-10 align-center justify-center">
+                    <button class="nav-buy-btn btn">BUY NOW</button>
+                    <button class="nav-theme-btn" title="Toggle Theme" aria-label="Toggle Theme">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </div>
+                <!-- ========== MOBILE MENU - TOGGLE ========== -->
+                <button class="nav-toggle-btn" aria-label="Toggle Menu">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- ========== HEADER END ========== -->
+    <!-- ========== MAIN START ========== -->
+    <main>
+        <!-- === HERO_SECTION_START === -->
+        <section>
+            <div class="container hero-container flex wrap align-center pad-50">
+                <div class="col-6 col-s-12">
+                    <div class="hero-left flex flex-column gap-35 align-start">
+                        <h1 class="text-grad" id="title">Trending <br /> Business</h1>
+                        <p class="line-height">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
+                        <button class="btn">Purchase Now</button>
+                    </div>
+                </div>
+                <div class="col-6 col-s-12">
+                    <div class="hero-right">
+                        <img src="./assets/images/main/hero-section/model.png" alt="model" aria-label="model" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === HERO_SECTION_END === -->
+        <!-- === SECTION 2 - ABOUT START === -->
+        <section>
+            <div class="container about-container pad-50">
+                <div class="about-top flex flex-column section-top">
+                    <span class="about-bg section-sub-title-bg">
+                        <p>Companies About</p>
+                    </span>
+                    <h2 class="text-center section-title">What About Our Companies</h2>
+                    <p class="text-center line-height-s">We help our clients succeed by creating brand identities,<br />digital experiences, and print materials.</p>
+                </div>
+                <div class="about-bottom flex wrap align-center">
+                    <div class="col-6 col-s-12">
+                        <div class="about-left">
+                            <img src="./assets/images/main/about-section/family.jpg" alt="" width="100%">
+                        </div>
+                    </div>
+                    <div class="col-6 col-s-12">
+                        <div class="about-nav">
+                            <div class="about-nav-top flex">
+                                <button class="active">Stategy</button>
+                                <button>Reporting</button>
+                                <button>Development</button>
+                            </div>
+                            <div class="about-info flex flex-column gap-20">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.</p>
+                                <p>Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === SECTION 2 - ABOUT END === -->
+        <!-- === SECTION 3 - TIMELINE START -->
+        <section>
+            <div class="container timeline-container pad-50 flex flex-column gap-40">
+                <div class="section-top timeline-top">
+                    <span class="timeline-bg section-sub-title-bg">
+                        <p>Timeline</p>
+                    </span>
+                    <h2 class="section-title">Working Proecess.</h2>
+                    <p>We help our clients succeed by creating brand identities,<br />digital experiences, and print materials.</p>
+                </div>
+                <div class="timeline-bottom flex wrap">
+                    <div class="col-3 col-s-6">
+                        <div class="timeline-card">
+                            <h3>Knowledge</h3>
+                            <div class="dot progress two"></div>
+                            <p>Present all available <br /> features in Essentials</p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6">
+                        <div class="timeline-card">
+                            <h3>Working</h3>
+                            <div class="dot progress"></div>
+                            <p>All Feature available <br />  features in Essentials</p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6">
+                        <div class="timeline-card">
+                            <h3>Solution</h3>
+                            <div class="dot progress"></div>
+                            <p>Popular Feature available <br />  features in Essentials</p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-s-6">
+                        <div class="timeline-card">
+                            <h3>Process</h3>
+                            <div class="dot"></div>
+                            <p>Latest Feature available<br />  features in Essentials</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- === SECTION 3 - TIMELINE END -->
+        <!-- === SECTION 4 - FAQ START -->
+        <section>
+            <div class="container flex wrap pad-50 align-center justify-center">
+                <div class="col-6 col-s-12">
+                    <div class="faq-left">
+                        <img src="./assets/images/main/FAQ-section/model-female.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-6 col-s-12">
+                    <div class="faq-right">
+                        <div class="faq-right-title">
+                            <div class="section-top faq-top">
+                                <span class="timeline-bg section-sub-title-bg">
+                                    <p>WORKFLOW INTEGRATION</p>
+                                </span>
+                                <h2 class="section-title faq-title">Companies Platform.</h2>
+                            </div>
+                        </div>
+                        <div class="faqs flex flex-column">
+                            <div class="faq-question active">
+                                <div class="faq-items flex justify-between">
+                                    <h3>What is Doob? How does it workd?</h3>
+                                    <span>
+                                        <i class="ri-subtract-line"></i>
+                                    </span>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>You can  run doob easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check. Goes To Your your command prompt.</p>
+                                </div>
+                            </div>
+                            <div class="faq-question">
+                                <div class="faq-items flex justify-between">
+                                    <h3>How can I get the customer support?</h3>
+                                    <span>
+                                        <i class="ri-add-line"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="faq-question">
+                                <div class="faq-items flex justify-between">
+                                    <h3>Can I get update regularly and For how long do I get updates?</h3>
+                                    <span>
+                                        <i class="ri-add-line"></i>
+                                    </span>
+                                </div>
+                            </div>                            
+                            <div class="faq-question">
+                                <div class="faq-items flex justify-between">
+                                    <h3>How can I run doob html template?</h3>
+                                    <span>
+                                        <i class="ri-add-line"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === SECTION 4 - FAQ END -->
+        <!-- === SECTION 5 - PRICING START -->
+        <section>
+            <div class="container pad-50 flex flex-column gap-40">
+                <div class="pricing-top flex flex-column section-top">
+                    <span class="pricing-bg section-sub-title-bg">
+                        <p>Our Pricing Plan</p>
+                    </span>
+                    <h2 class="text-center section-title">Business Pricing Plan.</h2>
+                    <p class="text-center line-height-s">We help our clients succeed by creating brand identities,<br />digital experiences, and print materials.</p>
+                </div>
+                <div class="plans flex justify-center wrap">
+                    <div class="basic-plan flex flex-column align-center">
+                        <div class="plan-title">
+                            <h3 class="text-center">Basic</h3>
+                            <div class="price flex">
+                                <div class="price-symbol">
+                                    <p class="text-center">$</p>
+                                </div>
+                                <div class="price-number">
+                                    <p class="text-center">29</p>
+                                </div>
+                            </div>
+                            <p class="text-center">USD Per Month</p>
+                        </div>
+                        <div class="price-services flex flex-column gap-15 align-center">
+                            <p><i class="ri-check-line"></i>5 PPC Campaingns</p>
+                            <p><i class="ri-check-line"></i>5 Digital Marketing</p>
+                            <p><i class="ri-check-line"></i>5 Marketing Agency</p>
+                            <p><i class="ri-check-line"></i>5 Seo Freindly</p>
+                            <p><i class="ri-check-line"></i>5 UI/UX designs</p>
+                        </div>
+                        <button class="basic-plan-btn">Purchase Now</button>
+                        
+                    </div>
+                    <div class="standard-plan basic-plan flex flex-column align-center">
+                        <div class="standard-plan-title plan-title">
+                            <h3 class="text-center">Standard</h3>
+                            <div class="price flex">
+                                <div class="price-symbol">
+                                    <p class="text-center">$</p>
+                                </div>
+                                <div class="price-number">
+                                    <p class="text-center">50</p>
+                                </div>
+                            </div>
+                            <p class="text-center">USD Per Month</p>
+                        </div>
+                        <div class="price-services flex flex-column gap-15 align-center">
+                            <p><i class="ri-check-line"></i>5 PPC Campaingns</p>
+                            <p><i class="ri-check-line"></i>5 Keep 100% Royalties</p>
+                            <p><i class="ri-check-line"></i>5 App Development</p>
+                            <p><i class="ri-check-line"></i>5 Seo Freindly</p>
+                            <p><i class="ri-check-line"></i>5 UI/UX designs</p>
+                        </div>
+                        <button class="standard-plan-btn btn">Purchase Now</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === SECTION 5 - PRICING START -->
+        <!-- === SECTION 5 - BLOG START -->
+        <section>
+            <div class="container pad-100">
+                <div class="blog-top flex flex-column section-top">
+                    <span class="blog-bg section-sub-title-bg">
+                        <p>Latest News</p>
+                    </span>
+                    <h2 class="text-center section-title">Our Latest News</h2>
+                    <p class="text-center line-height-s">We help our clients succeed by creating brand identities,<br />digital experiences, and print materials.</p>
+                </div>
+                <div class="blog-bottom flex wrap">
+                    <div class="col-4 col-s-12">
+                        <div class="blog-box">
+                            <div class="image">
+                                <img src="./assets/images/main/blog-section/blog-01.jpg" alt="" width="100%">
+                            </div>
+                            <p>Irin Pervin / 10 Dec 2021</p>
+                            <h3>Best Corporate Tips You Will Read This Year</h3>
+                        </div>
+                    </div>
+                    <div class="col-4 col-s-12">
+                        <div class="blog-box">
+                            <div class="image">
+                                <img src="./assets/images/main/blog-section/blog-02.jpg" alt="" width="100%">
+                            </div>
+                            <p>Irin Pervin / 10 Dec 2021</p>
+                            <h3>Best Corporate Tips You Will Read This Year</h3>
+                        </div>
+                    </div>
+                    <div class="col-4 col-s-12">
+                        <div class="blog-box">
+                            <div class="image">
+                                <img src="./assets/images/main/blog-section/blog-03.jpg" alt="" width="100%">
+                            </div>
+                            <p>Irin Pervin / 10 Dec 2021</p>
+                            <h3>Best Corporate Tips You Will Read This Year</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === SECTION 5 - BLOG END -->
+    </main>
+    <!-- ========== MAIN END ========== -->
+    <!-- ========== FOOTER START ========== -->
+    <footer>
+        <section>
+            <div class="container footer-container pad-50">
+                <div class="footer-top flex flex-column section-top">
+                    <h2 class="text-center section-title">Ready to start creating a <br />standard website?</h2>
+                    <p class="text-center line-height-s">Finest choice for your home & office</p>
+                    <button class="footer-btn btn">Purchase Doob <i class="ri-arrow-right-line"></i></button>
+                </div>
+                <div class="footer-bottom flex wrap gap-40 justify-around align-center">
+                    <div class="col-4 col-s-12">
+                        <div class="footer-left flex gap-10 wrap align-center justify-center">
+                            <a href="#">Privacy Policy</a>
+                            <p>|</p>
+                            <a href="#">Terms And Condition</a>
+                            <p>|</p>
+                            <a href="#">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-s-12">
+                        <div class="footer-mid flex wrap gap-10 align-center justify-center">
+                            <div class="social-media-circle">
+                                <i class="ri-facebook-line"></i>
+                            </div>
+                            <div class="social-media-circle">
+                                <i class="ri-twitter-line"></i>
+                            </div>
+                            <div class="social-media-circle">
+                                <i class="ri-instagram-line"></i>
+                            </div>
+                            <div class="social-media-circle">
+                                <i class="ri-linkedin-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-s-12">
+                        <div class="footer-right">
+                            <p class="text-center">&copy; All rights reserved Bhushan Patil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- ========== FOOTER END ========== -->
+</body>
+</html>
