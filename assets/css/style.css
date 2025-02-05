@@ -913,9 +913,9 @@ body.dark .social-media-circle:hover{
     /* =-=-=-=-=-=-= TIMELINE END =-=-=-=-=-=  */
 
 }
-@media(max-width: 431px){
+@media(max-width: 450px){
     /* =-=-=-=-=-=-= HEADER START=-=-=-=-=-= */
-    .nav-btns{
+    .nav-btns .nav-buy-btn{
         display: none;
     }
     /* =-=-=-=-=-=-= HEADER END =-=-=-=-=-= */
