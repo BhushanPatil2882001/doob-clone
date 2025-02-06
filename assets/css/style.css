@@ -880,7 +880,7 @@ body.dark .social-media-circle:hover{
     .hero-left{
         align-items: center;
     }
-    .hero-left h1{
+    .hero-container .hero-left h1{
         font-size: 60px;
     }
     .hero-left p{
@@ -898,7 +898,7 @@ body.dark .social-media-circle:hover{
     .about-top p{
         font-size: 16px;
     }
-    .about-nav-top button{
+    .about-nav .about-nav-top button{
         padding: 20px;
     }
     /* =-=-=-=-=-=-= ABOUT END =-=-=-=-=-=  */
